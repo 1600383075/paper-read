@@ -14,11 +14,13 @@
       
 #论文核心剖析   
 一、论文核心算法理解   
-    论文中算法名称为Density summarizing incremental LOF(DILOF)，算法的主要解决问题有以下两个：    
+    论文中算法名称为Density summarizing incremental LOF(DILOF)，该算法主体结构是基于LOF,MILOF,ILOF三大算法改进而来，而MILOF,ILOF两种又是基于LOF算法改进而来，具体关于该三种算法介绍在后文中会有介绍。    
+    DILOF算法的主要解决问题有以下两个：     
     1：降低内存，减少内存占用量。这对于一些小容量的传感器来说及其重要    
     2：降低时间复杂度    
  为解决这两个问题，算法在设计上分为两大部分：
-    （1）：detection  phase
-    （2）：summarization phase
- 二、对（1）（2）两阶段算法进行详细讲解
+    （1）：detection  phase      
+    （2）：summarization phase     
+ 二、对（1）（2）两阶段算法进行详细讲解     
+     对detection phase算法进行分析讲解：
  
